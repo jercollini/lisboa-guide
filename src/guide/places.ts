@@ -1,0 +1,173 @@
+import type { Place } from '../types'
+
+// Photos from Wikimedia Commons (free licences), found with scripts/wiki-image.mjs.
+export const places: Place[] = [
+  {
+    id: 'praca-comercio',
+    name: 'Praça do Comércio',
+    category: 'Plaza',
+    description:
+      'La gran plaza abierta al río Tajo, rodeada de soportales amarillos. Por el Arco da Rua Augusta se entra en la Baixa, el centro reconstruido tras el terremoto de 1755.',
+    address: 'Praça do Comércio, 1100-148 Lisboa',
+    lat: 38.7075,
+    lng: -9.1364,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Aerial_view_of_Pra%C3%A7a_do_Com%C3%A9rcio_and_Baixa_Pombalina_%28cropped_and_retouched%29.jpg/960px-Aerial_view_of_Pra%C3%A7a_do_Com%C3%A9rcio_and_Baixa_Pombalina_%28cropped_and_retouched%29.jpg',
+    tip: 'Desde el mirador del Arco da Rua Augusta hay una vista estupenda de la plaza y del río.',
+  },
+  {
+    id: 'santa-justa',
+    name: 'Elevador de Santa Justa',
+    category: 'Monumento',
+    description:
+      'Ascensor de hierro de principios del siglo XX que une la Baixa con el Chiado. Arriba hay una pasarela con vistas al castillo y al centro.',
+    address: 'Rua do Ouro, 1150-060 Lisboa',
+    lat: 38.7121,
+    lng: -9.1394,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Elevador_de_Santa_Justa%2C_Lisboa%2C_Portugal%2C_2022-07-24%2C_DD_08.jpg/960px-Elevador_de_Santa_Justa%2C_Lisboa%2C_Portugal%2C_2022-07-24%2C_DD_08.jpg',
+    tip: 'Suele haber cola abajo. Se puede llegar andando a la pasarela de arriba desde el Largo do Carmo.',
+  },
+  {
+    id: 'se',
+    name: 'Catedral (Sé de Lisboa)',
+    category: 'Iglesia',
+    description:
+      'La catedral más antigua de la ciudad, con aspecto de fortaleza románica. Está en el camino entre la Baixa y Alfama.',
+    address: 'Largo da Sé, 1100-585 Lisboa',
+    lat: 38.7098,
+    lng: -9.1335,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/West_facade_of_Lisbon_Cathedral_%28retouched%29.jpg/960px-West_facade_of_Lisbon_Cathedral_%28retouched%29.jpg',
+    tip: 'El tranvía 28 pasa justo por delante: es la foto clásica de Lisboa.',
+  },
+  {
+    id: 'alfama',
+    name: 'Barrio de Alfama',
+    category: 'Barrio',
+    description:
+      'El barrio más antiguo: callejuelas, escaleras, ropa tendida y casas de fado. Lo mejor es perderse sin prisa.',
+    address: 'Alfama, 1100 Lisboa',
+    lat: 38.7116,
+    lng: -9.1275,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Alfama%2C_Lisboa_-_2010-09-09.jpg/960px-Alfama%2C_Lisboa_-_2010-09-09.jpg',
+    tip: 'Hay muchas cuestas y suelo de piedra resbaladizo: calzado cómodo con buena suela.',
+  },
+  {
+    id: 'santa-luzia',
+    name: 'Miradouro de Santa Luzia',
+    category: 'Mirador',
+    description:
+      'Terraza con azulejos y buganvillas sobre los tejados de Alfama y el río. Uno de los miradores más bonitos de la ciudad.',
+    address: 'Largo de Santa Luzia, 1100-487 Lisboa',
+    lat: 38.7118,
+    lng: -9.13,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/MiradouroSantaLuzia.JPG/960px-MiradouroSantaLuzia.JPG',
+    tip: 'Al lado está el Miradouro das Portas do Sol, con otra vista igual de buena.',
+  },
+  {
+    id: 'castelo',
+    name: 'Castillo de San Jorge',
+    category: 'Monumento',
+    description:
+      'Castillo medieval en lo alto de la colina más antigua de Lisboa. Sus murallas tienen las mejores vistas panorámicas de la ciudad.',
+    address: 'Rua de Santa Cruz do Castelo, 1100-129 Lisboa',
+    lat: 38.7139,
+    lng: -9.1335,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Castelo_Sao_Jorge_Lisboa_1.JPG',
+    tip: 'La subida es empinada: el autobús 737 os deja en la puerta.',
+  },
+  {
+    id: 'senhora-monte',
+    name: 'Miradouro da Senhora do Monte',
+    category: 'Mirador',
+    description:
+      'El mirador más alto del centro, con vista de toda la ciudad, el castillo y el puente 25 de Abril. Ideal para el atardecer.',
+    address: 'Largo Monte, 1170-253 Lisboa',
+    lat: 38.7191,
+    lng: -9.1325,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Miradouro_Nossa_Senhora_do_Monte_II.jpg/960px-Miradouro_Nossa_Senhora_do_Monte_II.jpg',
+    tip: 'Si os cansa la cuesta, el tranvía 28 para cerca (parada Graça).',
+  },
+  {
+    id: 'jeronimos',
+    name: 'Monasterio de los Jerónimos',
+    category: 'Monumento',
+    description:
+      'Obra maestra del estilo manuelino y Patrimonio de la Humanidad. El claustro es espectacular y dentro está la tumba de Vasco da Gama.',
+    address: 'Praça do Império, 1400-206 Lisboa',
+    lat: 38.6979,
+    lng: -9.2068,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg/960px-1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg',
+    tip: 'La iglesia se visita gratis; el claustro es de pago. Conviene comprar la entrada por internet para evitar la cola.',
+  },
+  {
+    id: 'padrao',
+    name: 'Monumento a los Descubrimientos',
+    category: 'Monumento',
+    description:
+      'Gran monumento en forma de proa junto al río, en honor a los navegantes portugueses. En el suelo hay una rosa de los vientos gigante.',
+    address: 'Av. Brasília, 1400-038 Lisboa',
+    lat: 38.6936,
+    lng: -9.2057,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Monumento_a_los_Descubrimientos%2C_Lisboa%2C_Portugal%2C_2012-05-12%2C_DD_19.JPG/960px-Monumento_a_los_Descubrimientos%2C_Lisboa%2C_Portugal%2C_2012-05-12%2C_DD_19.JPG',
+    tip: 'Se puede subir a lo alto en ascensor para ver Belém y el río.',
+  },
+  {
+    id: 'torre-belem',
+    name: 'Torre de Belém',
+    category: 'Monumento',
+    description:
+      'La torre defensiva del siglo XVI a orillas del Tajo, símbolo de la época de los descubrimientos y Patrimonio de la Humanidad.',
+    address: 'Av. Brasília, 1400-038 Lisboa',
+    lat: 38.6916,
+    lng: -9.216,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Bel%C3%A9m_Tower_in_Lisbon%2C_Portugal.jpg/960px-Bel%C3%A9m_Tower_in_Lisbon%2C_Portugal.jpg',
+    tip: 'Por fuera ya merece la pena; el interior es estrecho y con escaleras de caracol.',
+  },
+  {
+    id: 'lx-factory',
+    name: 'LX Factory',
+    category: 'Ocio',
+    description:
+      'Antigua fábrica convertida en espacio de tiendas, librerías, cafés y restaurantes, bajo el puente 25 de Abril.',
+    address: 'Rua Rodrigues de Faria 103, 1300-501 Lisboa',
+    lat: 38.7037,
+    lng: -9.1785,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/LX_Factory_%2822379332901%29.jpg/960px-LX_Factory_%2822379332901%29.jpg',
+    tip: 'Queda de camino entre Belém y el centro (tranvía 15 o autobús, parada Calvário).',
+  },
+  {
+    id: 'bairro-alto',
+    name: 'Chiado y Bairro Alto',
+    category: 'Barrio',
+    description:
+      'El Chiado es elegante, con cafés históricos y teatros; justo encima, el Bairro Alto se llena de bares y ambiente por la noche.',
+    address: 'Bairro Alto, 1200 Lisboa',
+    lat: 38.713,
+    lng: -9.145,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/42/Bairro_Alto_Lisboa_1.JPG',
+    tip: 'El Miradouro de São Pedro de Alcântara, al lado, tiene vistas al castillo.',
+  },
+  {
+    id: 'oceanario',
+    name: 'Oceanario de Lisboa',
+    category: 'Museo',
+    description:
+      'Uno de los mayores acuarios de Europa, en el moderno Parque das Nações. Plan perfecto para un día de lluvia.',
+    address: 'Esplanada Dom Carlos I, 1990-005 Lisboa',
+    lat: 38.7635,
+    lng: -9.0937,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lisbon_Oceanarium_%2834535938846%29.jpg/960px-Lisbon_Oceanarium_%2834535938846%29.jpg',
+    tip: 'Se llega en metro, línea roja, hasta Oriente.',
+  },
+  {
+    id: 'pena',
+    name: 'Palacio da Pena (Sintra)',
+    category: 'Excursión',
+    description:
+      'Palacio romántico de colores sobre un monte cubierto de bosque, en Sintra, a unos 40 minutos en tren. Patrimonio de la Humanidad.',
+    address: 'Estrada da Pena, 2710-609 Sintra',
+    lat: 38.7876,
+    lng: -9.3906,
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg/960px-Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg',
+    tip: 'Comprad la entrada con hora por internet y subid desde el centro de Sintra en el autobús 434: la cuesta a pie es muy dura.',
+  },
+]
