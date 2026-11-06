@@ -18,8 +18,8 @@ export const guide: GuideConfig = {
       'Tres días agrupados por zonas para no ir y venir: el centro histórico, Belém y una escapada a Sintra. Si llueve, cambiad el orden.',
     places:
       'Lo imprescindible de Lisboa y alrededores. Toca «Cómo llegar» para abrir la ruta en el mapa.',
-    restaurants:
-      'Clásicos de la ciudad: marisco, bifanas, pastéis de nata y algún local con fado. En los más famosos hay cola: id pronto o reservad.',
+    food:
+      'Los sabores de Lisboa que no os podéis ir sin probar: bacalao, marisco, bifanas y, por supuesto, pastéis de nata. Si un local es famoso por un plato, lo indicamos.',
     transport:
       'Lisboa tiene muchas cuestas. Combinad paseos con metro, tranvía y los elevadores para no agotaros.',
     phrases:
